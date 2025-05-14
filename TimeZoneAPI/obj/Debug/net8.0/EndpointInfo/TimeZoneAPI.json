@@ -1,0 +1,43 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "TimeZoneAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/time/timezones": {
+      "get": {
+        "tags": [
+          "Time"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/time": {
+      "get": {
+        "tags": [
+          "Time"
+        ],
+        "parameters": [
+          {
+            "name": "timezone",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

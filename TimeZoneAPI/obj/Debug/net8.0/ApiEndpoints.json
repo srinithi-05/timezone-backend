@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "TimeController",
+    "Method": "GetTime",
+    "RelativePath": "api/time",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "timezone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimeController",
+    "Method": "GetTimezones",
+    "RelativePath": "api/time/timezones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
